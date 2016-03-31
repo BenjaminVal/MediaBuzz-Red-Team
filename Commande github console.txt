@@ -1,0 +1,25 @@
+git init  initialise le git (cree un dossier.git)
+
+git add . (prepare a commit tous les fichiers)
+	+
+git commit -m "commentaire" (commit les fichiers)
+
+git checkout -b nom_branche (switch et cree la branche)
+
+git checkout nom_branche (switch sur la branche)
+
+git checkout master (switch sur le master)
+
+git merge nom_branche (merge les fichiers de la branche sur le master)
+
+git log (affiche les commentaires de tous les commits)
+
+---------------------
+
+git remote add origin +adresse du serveur : ajouter serv
+
+git push origin (nom branche)master : commit les fichiers sur le serveur
+
+git pull origin master : update le projet pour recuperer la bonne version 
+
+git clone https://github.com/BenjaminVal/MediaBuzz-Red-Team.git (url projet)  : recuperer le projet
